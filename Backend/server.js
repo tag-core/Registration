@@ -12,7 +12,7 @@ const uri = "mongodb+srv://db:db1@cluster0.h3odo.mongodb.net/?retryWrites=true&w
 
 // Database and Collection Names
 const dbName = 'registration';
-const collectionName = 'students';
+const collectionName = 'User-data';
 
 // Route to handle form submission from Google Apps Script
 app.post('/submit-form', async (req, res) => {
