@@ -8,7 +8,7 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // MongoDB connection string
-const uri = "mongodb+srv://db:<db1@cluster0.h3odo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://db:db1@cluster0.h3odo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // Database and Collection Names
 const dbName = 'registration';
